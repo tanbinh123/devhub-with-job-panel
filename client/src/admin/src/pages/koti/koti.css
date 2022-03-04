@@ -1,0 +1,8 @@
+.koti{
+    flex: 4;
+}
+
+.kotiWidgets{
+    display: flex;
+    margin: 20px;
+}

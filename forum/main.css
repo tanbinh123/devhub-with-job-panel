@@ -1,0 +1,45 @@
+.ContainerScroller {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.FixedNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    display: flex;
+}
+
+.Navbar {
+    width: 70px;
+    height: 63px;
+    background-color: blue;
+}
+
+.Container {
+    position: absolute;
+    margin-top: -1.55rem;
+}
+
+.Row {
+    position: absolute;
+}
+
+.staticDiv {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.Navbar {
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.MaxedOut {
+    width: 100%;
+}
