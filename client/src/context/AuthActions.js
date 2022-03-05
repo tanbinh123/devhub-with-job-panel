@@ -21,7 +21,6 @@ export const Unfollow = (userId) => ({
   payload: userId,
 });
 
-export const Logout = (user) => ({
+export const Logout = () => ({
   type: "LOGOUT",
-  //payload: user,
 });
