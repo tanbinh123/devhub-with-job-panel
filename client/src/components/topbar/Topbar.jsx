@@ -7,11 +7,23 @@ import { AuthContext } from "../../context/AuthContext";
 import { logoutCall } from "../../apiCalls"
 import DeviceHubSharpIcon from '@material-ui/icons/DeviceHubSharp';
 
+import axios from "axios";
+import { useHistory } from "react-router";
+
 export default function Topbar() {
   const { user } = useContext(AuthContext);
   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   const { dispatch } = useContext(AuthContext);
-  const handleClick = () => { logoutCall(dispatch) };
+  const history = useHistory();
+  const handleClick =() => {
+    logoutCall(dispatch)
+    try {
+       axios.get("/auth/logout");
+       history.push("/login");
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   return (
     <div className="topbarContainer">
