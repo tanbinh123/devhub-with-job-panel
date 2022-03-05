@@ -42,12 +42,16 @@ router.post("/login", async (req, res) => {
 
 // Logout
 
-router.get("/", (req, res) => {
+router.get("/logout", (req, res) => {
   req.logout();
   req.session = null;
-  return res.redirect("/login");
-
+  res.json({
+            status: "logout",
+            msg:"Please Log In again"
+         });
 });
+
+
 
 
 
