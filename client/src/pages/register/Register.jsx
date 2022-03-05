@@ -3,6 +3,7 @@ import { useRef } from "react";
 import "./register.css";
 import logo from "./logo.png";
 import { useHistory } from "react-router";
+import { Link } from "react-router-dom";
 
 export default function Register() {
 
@@ -54,7 +55,7 @@ export default function Register() {
             <button className="loginButton" type="submit">
               Sign Up
             </button>
-            <button className="loginRegisterButton">Let me in</button>
+            <button className="loginRegisterButton"><Link to="/login" style={{ textDecoration: "none",  color: "white" }}>Let me in</Link></button>
           </form>
         </div>
       </div>
