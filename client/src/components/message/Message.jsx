@@ -1,5 +1,5 @@
 import "./message.css";
-import { format } from "timeago.js";
+import moment from "moment";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 
@@ -20,7 +20,7 @@ export default function Message({ message, own }) {
             } alt="" />
         <p className="messageText">{message.text}</p>
       </div>
-      <div className="messageBottom">{format(message.createdAt)}</div>
+      <div className="messageBottom">{moment(message.createdAt).fromNow()}</div>
     </div>
   );
 }
