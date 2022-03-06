@@ -88,7 +88,7 @@
   <p>React-router-dom</p>
   <p>Helmet</p>
   <p>Axios</p>
-  <p>Timeago.js</p>
+  <p>Moment</p>
   <p>Node-sass</p>
   <p>recharts</p>
   <p>Express</p>
