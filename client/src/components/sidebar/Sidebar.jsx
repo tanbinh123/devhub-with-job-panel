@@ -68,7 +68,7 @@ const { user } = useContext(AuthContext);
           </li>
           <li className="sidebarListItem">
             <WorkOutline className="sidebarIcon" htmlColor="#AF7AC5" />
-            <Link to={`/admin`} style={{ textDecoration: "none" }}><span className="sidebarListItemText">Jobs</span></Link>
+            <a href="https://job-portal-koushik.netlify.app/" style={{ textDecoration: "none" }}><span className="sidebarListItemText">Jobs</span></a>
           </li>
           <li className="sidebarListItem">
             <Event className="sidebarIcon" htmlColor="#FF6666" />
