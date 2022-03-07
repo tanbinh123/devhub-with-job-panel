@@ -36,7 +36,7 @@ const { user } = useContext(AuthContext);
           </li>
           <li className="sidebarListItem">
             <DeveloperMode className="sidebarIcon" htmlColor="#FF1966" />
-            <span className="sidebarListItemText">devHuß Wiki</span>
+            <a href="https://devhub-forum.herokuapp.com" style={{ textDecoration: "none" }}><span className="sidebarListItemText">devHuß Wiki</span></a>
           </li>
           <li className="sidebarListItem">
             <HelpOutline className="sidebarIcon" htmlColor="#008080" />
