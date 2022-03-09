@@ -122,7 +122,7 @@
 
 <ul>
 <li><a href="https://fullstackopen.com/en/">Deep Dive into Modern Web Development</a></li>
-<li><a href="https://stackoverflow.com/"></a></li>
+<li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
 <li><a href="https://manage.auth0.com/">auth0</a></li>
 <li><a href="https://www.mongodb.com/languages/mern-stack-tutorial">MERN Stack Guide</a></li>
 <li><a href="https://unsplash.com/">Unsplash</a></li>
