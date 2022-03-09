@@ -53,8 +53,8 @@
 <li></li>
 <li></li>
 <li></li>
-<li>Fetch subdivisions</li>
-<li>Fetch countries</li>
+<li></li>
+<li></li>
 </ul>
 
  <h3 align="left"> Goals:</h3>
