@@ -127,6 +127,7 @@
 <li><a href="https://www.mongodb.com/languages/mern-stack-tutorial">MERN Stack Guide</a></li>
 <li><a href="https://unsplash.com/">Unsplash</a></li>
 <li><a href="https://reactjs.org/">React</a></li>
+ <li><a href="https://blog.logrocket.com/mern-stack-tutorial/">LogRocket</a></li>
 </ul>
 
 <h3 align="left">License:</h3>
